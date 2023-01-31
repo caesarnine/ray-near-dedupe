@@ -1,0 +1,11 @@
+name: ray-deduper
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10.8
+  - pip
+  - pip:
+    - narrow-down
+    - datasets
+    - scylla-driver
